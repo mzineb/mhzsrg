@@ -1,0 +1,116 @@
+/******************************************************
+ * @package Pav Opencart Theme Framework for Opencart 1.5.x
+ * @version 1.1
+ * @author http://www.pavothemes.com
+ * @copyright	Copyright (C) Augus 2013 PavoThemes.com <@emai:pavothemes@gmail.com>.All rights reserved.
+ * @license		GNU General Public License version 2
+*******************************************************/
+
+@media only screen and (max-width: 1200px) {
+	.gallery a {
+		width: auto!important;
+	}
+}
+
+@media only screen and (max-width: 990px) {
+	#logo {
+		text-align: center; 
+	}
+	.navbar-inverse .navbar-toggle{
+		display: block;
+		float: none;
+		width: 45px;
+		height: 35px;
+		background-color: #997747;
+		border-color: #997747;
+		margin-left: 10px;
+	}
+	
+
+	.navbar-collapse.collapse  {
+		display:  none!important
+	}
+
+	.navbar-nav > li {
+		float: none;
+	}
+	
+	.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+		background-color: #9a8362;
+	}
+}
+@media only screen and (max-width: 749px){
+	#logo {
+		display: block !important;
+	    margin-left: 35%;
+	    margin-top: 35px;
+	    text-align: left;
+	}
+	#header #cart,
+	.box-services {
+		display: block !important;
+	    margin-bottom: 20px;
+	    width: 190px;
+	}
+	.wishlist-info td,
+	.wishlist-info th,		
+	table.compare-info td, 
+	table.compare-info th,
+	table.pav-checkout-product td,
+	table.pav-checkout-product th,
+	table.pav-shop-cart td,
+	table.pav-shop-cart th{
+		border-right: 0 none;
+		display: block !important;
+		float: none !important;
+		text-align: left !important;
+		width: auto !important;
+	}
+	.wishlist-info tr td:before,
+	table.pav-shop-cart tr td:before{
+		content: attr(data-label);
+		float: left;
+		font-weight: bold;
+		text-align: left;
+		white-space: nowrap;
+		width: 50%;
+	}
+	.wishlist-info tr td,
+	table.pav-shop-cart tr td {
+		text-align:right;
+		display: block;
+		min-height: 20px;
+		border-left: none;
+		background: none;
+	}
+	.wishlist-info thead,
+	table.pav-shop-cart thead {
+		 display:  none;
+	}
+	#search {
+		position: absolute;
+	    right: 11px;
+	    top: -50px;
+	    z-index: 1001;
+	    width: 200px;
+	    input{
+	   		width: 200px;
+
+	    }
+	}
+	#header #cart, .box-services {
+	    margin-left: 35%;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	#logo,#header #cart, .box-services {
+	    margin-left: 20%;
+	}
+}
+@media only screen and (max-width: 320px){
+	#logo,#header #cart, .box-services {
+	    margin-left: 19%;
+	}
+}
+

@@ -1,0 +1,105 @@
+#pav-mainnav {
+  position: relative;
+}
+#pav-mainnav .dropdown:hover > .dropdown-menu {
+  display: block;
+}
+#pav-mainnav .navbar {
+  border: none;
+}
+#pav-mainnav .navbar .navbar-collapse {
+  padding-left: 0;
+  padding-right: 0;
+}
+#pav-mainnav .navbar ul.nav  > li:hover > a {
+  background: none;
+  background-color: #c83a3a \9;
+}
+#pav-mainnav .navbar ul.nav  > li:hover > a:before {
+  width: 100%;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+#pav-mainnav .navbar ul.nav > li  > a {
+  text-transform: uppercase;
+  font-size: 15px;
+  z-index: 0;
+  overflow: hidden;
+}
+#pav-mainnav .navbar ul.nav > li  > a:before {
+  background-color: #c83a3a;
+  height: 100%;
+  left: 50%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 0;
+  content: "";
+  position: absolute;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  z-index: -1;
+}
+#pav-mainnav .dropdown-menu li a {
+  background: url('http://localhost/ausafir/catalog/view/theme/pav_foodstore/image/default/circle-li.png') no-repeat 10px 10px;
+  padding: 3px 0 3px 20px;
+}
+#pav-mainnav .dropdown-menu li a:hover {
+  background-position: 10px -29px;
+}
+#pav-mainnav .navbar-inverse .navbar-nav > .open > a {
+  background-color: #c83a3a;
+}
+.pav-megamenu .dropdown-menu > .dropdown-menu-inner {
+  padding: 10px;
+}
+.pav-megamenu .mega-group .caret {
+  display: none;
+}
+.pav-megamenu .mega-group > .dropdown-toggle {
+  display: block;
+  font-weight: bold;
+  padding: 6px 5px;
+  text-transform: uppercase;
+  border-bottom: solid 1px #E5E5E5;
+}
+.pav-megamenu .mega-group .dropdown-mega .mega-col-inner > ul > li a {
+  margin-left: 6px;
+}
+.pav-megamenu .mega-col .mega-col-inner > ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+.pav-megamenu .mega-col .mega-col-inner > ul > li {
+  list-style: none;
+  margin-left: 0;
+}
+.pav-megamenu .mega-col .mega-col-inner > ul > li > a {
+  clear: both;
+  color: #555555;
+  display: block;
+  line-height: 20px;
+}
+.pav-megamenu .dropdown-submenu:hover .dropdown-menu {
+  display: block;
+}
+.pav-megamenu .dropdown-submenu > .dropdown-menu {
+  border-radius: 0 6px 6px 6px;
+  left: 100%;
+  margin-left: -6px;
+  margin-top: -6px;
+  top: 0;
+}
+.pav-megamenu .cols2 {
+  width: 420px;
+}
+.pav-megamenu .cols3 {
+  width: 620px;
+}
+.pav-megamenu .cols4 {
+  width: 820px;
+}

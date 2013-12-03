@@ -1,0 +1,155 @@
+#page {
+  margin: 0 auto;
+  background: #FFFFFF;
+}
+body.layout-boxed-md {
+  background: url('http://localhost/ausafir/catalog/view/theme/pav_foodstore/image/pattern/pattern14.png');
+}
+body.layout-boxed-md #page {
+  max-width: 970px;
+  -webkit-box-shadow: 0 0 5px #888;
+  box-shadow: 0 0 5px #888;
+}
+body.layout-boxed-lg {
+  background: url('http://localhost/ausafir/catalog/view/theme/pav_foodstore/image/pattern/pattern14.png');
+}
+body.layout-boxed-lg #page {
+  max-width: 1170px;
+  -webkit-box-shadow: 0 0 5px #888;
+  box-shadow: 0 0 5px #888;
+}
+#topbar {
+  color: #999999;
+  font-size: 11px;
+  background: #e4dcd2;
+  padding: 10px 0;
+}
+#topbar ul li a {
+  font-size: 11px;
+  color: #777777;
+}
+#topbar ul li:before {
+  color: #aaaaaa;
+}
+#topbar ul li:hover a {
+  color: #c83a3a;
+}
+#header {
+  background: #f6eee3;
+}
+#header-main .header-wrap > div {
+  height: 115px;
+}
+#header-main .inner {
+  display: table;
+  position: relative;
+  height: 100%;
+}
+#header-main .inner > * {
+  display: table-cell;
+  vertical-align: middle;
+}
+#pav-mainnav {
+  margin-bottom: 15px;
+}
+#pav-mainnav .mainnav-wrap {
+  background: #b39770;
+}
+#content {
+  min-height: 400px;
+  margin-bottom: 25px;
+}
+.sidebar  [class*="col-"] {
+  width: 100%;
+}
+#footer {
+  background: #FFFFFF;
+  min-height: 100px;
+}
+#footer:before,
+#footer:after {
+  content: " ";
+  display: table;
+}
+#footer:after {
+  clear: both;
+}
+#footer .box .box-heading {
+  color: #3b3b3b;
+  font-size: 16px;
+  padding: 0;
+  background: none;
+  border-bottom: none;
+}
+#footer .box .box-heading span:before {
+  border-bottom: none;
+}
+#footer .box .box-content {
+  padding: 0;
+}
+#footer .footer-top {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-color: #f8f8f8;
+}
+#footer .footer-top a {
+  color: #c83a3a;
+}
+#footer .footer-center {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+#footer .footer-center .box-heading span span {
+  color: #3B3B3B;
+}
+#footer .footer-bottom {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+#footer h3 {
+  color: #3b3b3b;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+#footer .column a {
+  text-decoration: none;
+  color: #3b3b3b;
+  -webkit-transition: padding 0.5s ease 0s;
+  transition: padding 0.5s ease 0s;
+}
+#footer .column a:hover {
+  color: #c83a3a;
+  padding-left: 10px;
+}
+#footer .column ul li {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  padding-top: 0;
+  overflow: hidden;
+}
+#footer .column ul li a {
+  background: none;
+  padding-left: 0;
+  text-transform: none;
+}
+#powered {
+  clear: both;
+  background: #292929;
+  padding: 30px 0;
+  color: #FFFFFF;
+}
+#powered a {
+  color: #7db641;
+}
+#powered a:hover {
+  color: #c83a3a;
+}
+.banner div {
+  text-align: center;
+  width: 100%;
+  display: none;
+}
+.banner div img {
+  margin-bottom: 20px;
+}

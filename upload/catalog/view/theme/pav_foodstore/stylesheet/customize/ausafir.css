@@ -1,0 +1,31 @@
+
+/* customize for body */ 
+body { background-color:#ffffff} 
+
+/* customize for topbar */ 
+#topbar { background-color:#433e47} 
+#topbar { color:#cfcfcf} 
+#topbar a { color:#b5b5b5} 
+#topbar a:hover { color:#ffffff} 
+
+/* customize for header-main */ 
+#header { background-color:#ffffff} 
+
+/* customize for pav-mainnav */ 
+#pav-mainnav .mainnav-wrap { background-color:#433e47} 
+#pav-mainnav input { background-color:#5a565e} 
+#pav-mainnav input { color:#ffffff} 
+
+/* customize for footer-top */ 
+
+/* customize for footer-center */ 
+
+/* customize for powered */ 
+#powered { background-color:#3a373d} 
+#powered a { color:#bababa} 
+
+/* customize for product */ 
+.wishlist a { background-color:#914891} 
+.compare a { background-color:#914891} 
+
+/* customize for modules */ 

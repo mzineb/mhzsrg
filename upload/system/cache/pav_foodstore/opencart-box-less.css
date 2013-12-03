@@ -1,0 +1,252 @@
+.box {
+  margin-bottom: 17px;
+}
+.box .box-heading {
+  background: url('http://localhost/ausafir/catalog/view/theme/pav_foodstore/image/default/box-heading-bg.png') no-repeat left center;
+  border-bottom: 2px solid #e7e7e7;
+  padding: 8px 30px;
+  font-family: "robotoslab", serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 20px;
+}
+.box .box-heading span:before {
+  border-bottom: 2px solid #7db641;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  content: "";
+  width: 20%;
+}
+.box .box-heading span {
+  color: #3B3B3B;
+}
+.box .box-heading span span {
+  color: #7db641;
+}
+.sidebar .box .box-heading {
+  background: #b39770;
+  border: none;
+  margin-bottom: 0;
+}
+.sidebar .box .box-heading span {
+  color: #FFFFFF;
+}
+.sidebar .box .box-heading span:before {
+  border-right: 24px solid transparent;
+  border-top: 24px solid #7db641;
+  border-bottom: none;
+  position: absolute;
+  top: 0;
+  bottom: inherit;
+  width: 24px;
+}
+.sidebar .box .box-heading span span {
+  color: #FFFFFF;
+}
+.sidebar .box .box-content {
+  background: #eee;
+  padding: 15px;
+}
+.box.nopadding .box-content {
+  padding: 10px 0 0;
+}
+.box.nopadding ul li {
+  border-bottom: 1px solid #fff;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.box.nopadding ul li:last-child {
+  border-bottom: none;
+}
+.box.highlighted .box-heading {
+  background-color: #7db641;
+}
+.box.highlighted .box-content {
+  background-color: #fafafa;
+}
+.box.dark {
+  color: #fff;
+}
+.box.dark .box-heading {
+  background-color: #292929;
+  border-bottom: 1px solid #3f3f3f;
+  position: relative;
+}
+.box.dark .box-heading:before {
+  content: "";
+  background: url('http://localhost/ausafir/catalog/view/theme/pav_foodstore/image/default/bg-tite.png') no-repeat;
+  position: absolute;
+  top: 39px;
+  left: 30px;
+  width: 35px;
+  height: 11px;
+}
+.box.dark .box-content {
+  background-color: #2e2e2e;
+}
+.box.dark ul li {
+  border-bottom: 1px solid #343434;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.box.dark ul li a {
+  color: #fff;
+  background: none;
+  text-transform: none;
+  padding-left: 0;
+}
+.box.dark ul li a:hover {
+  color: #c83a3a;
+}
+.box.red {
+  color: #fff;
+}
+.box.red .box-heading {
+  background-color: #b72c2c;
+  border-bottom: 1px solid #c96666;
+  position: relative;
+}
+.box.red .box-content {
+  background-color: #C83A3A;
+}
+.box.red ul li {
+  border-bottom: 1px solid #c96666;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.box.red ul li a {
+  color: #fff;
+  background: none;
+  text-transform: none;
+  padding-left: 0;
+}
+.box.red ul li a:hover {
+  color: #fff;
+}
+.box.yellow {
+  color: #fff;
+}
+.box.yellow .box-heading {
+  background-color: #d8981a;
+  border-bottom: 1px solid #e8c174;
+  position: relative;
+}
+.box.yellow .box-content {
+  background-color: #EDA81F;
+}
+.box.yellow ul li {
+  border-bottom: 1px solid #e8c174;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.box.yellow ul li a {
+  color: #fff;
+  background: none;
+  text-transform: none;
+  padding-left: 0;
+}
+.box.yellow ul li a:hover {
+  color: #fff;
+}
+.box.blue {
+  color: #fff;
+}
+.box.blue .box-heading {
+  background-color: #3483bf;
+  border-bottom: 1px solid #64a0ce;
+  position: relative;
+}
+.box.blue .box-content {
+  background-color: #3c92d4;
+}
+.box.blue ul li {
+  border-bottom: 1px solid #64a0ce;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.box.blue ul li a {
+  color: #fff;
+  background: none;
+  text-transform: none;
+  padding-left: 0;
+}
+.box.blue ul li a:hover {
+  color: #fff;
+}
+.box.orange {
+  color: #fff;
+}
+.box.orange .box-heading {
+  background-color: #da6e3e;
+  border-bottom: 1px solid #e69673;
+  position: relative;
+}
+.box.orange .box-content {
+  background-color: #e97846;
+}
+.box.orange ul li {
+  border-bottom: 1px solid #e69673;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.box.orange ul li a {
+  color: #fff;
+  background: none;
+  text-transform: none;
+  padding-left: 0;
+}
+.box.orange ul li a:hover {
+  color: #fff;
+}
+.box.green {
+  color: #fff;
+}
+.box.green .box-heading {
+  background-color: #669435;
+  border-bottom: 1px solid #a2cd75;
+  position: relative;
+}
+.box.green .box-content {
+  background-color: #7DB641;
+}
+.box.green ul li {
+  border-bottom: 1px solid #a2cd75;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.box.green ul li a {
+  color: #fff;
+  background: none;
+  text-transform: none;
+  padding-left: 0;
+}
+.box.green ul li a:hover {
+  color: #fff;
+}
+.box.purple {
+  color: #fff;
+}
+.box.purple .box-heading {
+  background-color: #a130b9;
+  border-bottom: 1px solid #cb6ddf;
+  position: relative;
+}
+.box.purple .box-content {
+  background-color: #b436ce;
+}
+.box.purple ul li {
+  border-bottom: 1px solid #cb6ddf;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.box.purple ul li a {
+  color: #fff;
+  background: none;
+  text-transform: none;
+  padding-left: 0;
+}
+.box.purple ul li a:hover {
+  color: #fff;
+}
